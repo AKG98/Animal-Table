@@ -16,22 +16,39 @@ class AnimalTableManager {
         this.rowsPerPage = 4;
         this.currentSortField = null;
         this.sortDirection = 'asc';
+        this.isLoading = true;
+        this.showLoadingSpinner();
         this.loadData();
+    }
+
+    showLoadingSpinner() {
+        const table = document.getElementById(this.tableId);
+        table.innerHTML = `
+            <div class="text-center my-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <div class="mt-2">Loading ${this.formatAnimalType(this.animalType)}...</div>
+            </div>
+        `;
     }
 
     async loadData() {
         try {
+            this.showLoadingSpinner();
             const response = await fetch(`src/data/${this.animalType}.json`);
             const data = await response.json();
-            
             this.animals = data
                 .filter(animal => animal.species.toLowerCase() === this.getSpeciesType())
                 .map(animal => new Animal(animal));
             
-            this.render();
+            
         } catch (error) {
             console.error(`Error loading ${this.animalType} data:`, error);
             this.animals = [];
+            
+        }finally {
+            this.isLoading = false;
             this.render();
         }
     }
@@ -181,6 +198,10 @@ class AnimalTableManager {
     }
 
     render() {
+        if (this.isLoading) {
+            this.showLoadingSpinner();
+            return;
+        }
         const table = document.getElementById(this.tableId);
         if (this.animals.length === 0) {
             table.innerHTML = `
