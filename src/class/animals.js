@@ -21,7 +21,7 @@ class AnimalTableManager {
 
     async loadData() {
         try {
-            const response = await fetch(`src/data/${this.animalType}.json`);
+            const response = await fetch(`/src/data/${this.animalType}.json`);
             const data = await response.json();
             
             this.animals = data
