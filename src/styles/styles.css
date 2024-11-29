@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rowdies:wght@300;400;700&display=swap');
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    padding: 10px 100px;
+    
+}
+
+.animal-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.animal-image {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.animal-wrapper::after {
+    content: '';
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 350px;
+    transform: translate(-50%, -50%) scale(0);
+    background-image: var(--hover-image);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 100px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.animal-wrapper:hover::after {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.blue-text {
+    color: blue;
+}
+
+.sortable {
+    cursor: pointer;
+}
+
+.sortable:hover {
+    background-color: #f0f0f0;
+}
+
+.non-sortable {
+    cursor: default;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.page-info {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.pagination .page-link {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: #fff;
+}
+
+.pagination .page-link:hover {
+    background-color: #23272b;
+    border-color: #454d55;
+    color: #fff;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #000000;
+}
+
+.pagination .page-item.disabled .page-link {
+    background-color: #343a40;
+    border-color: #454d55;
+    color: #6c757d;
+}
+
+.nav-link{
+    color: #000000;
+}
+

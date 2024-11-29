@@ -1,0 +1,12 @@
+[
+    { "id": 1,"species":"Big Cat", "name": "Lion", "location": "Africa", "size": 10, "image": "https://transforms.stlzoo.org/production/animals/african-lion-01-01.jpg?w=1200&h=1200&auto=compress%2Cformat&fit=crop&dm=1658933674&s=01e567241018f2ecfeec600a6c7e9907" },
+    { "id": 2,"species":"Big Cat", "name": "Tiger", "location": "Asia",  "size": 8, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBL1k_Ex-4nD3XSg7doLGkBb-Xa4YA9lul_w&s" },
+    { "id": 3,"species":"Big Cat", "name": "Leopard", "location": "Africa & Asia",  "size": 5, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/African_leopard_male_%28cropped%29.jpg/800px-African_leopard_male_%28cropped%29.jpg" },
+    { "id": 4,"species":"Big Cat", "name": "Cheetah", "location":"Africa", "size": 5, "image":"https://static.diffen.com/uploadz/c/c5/cheetah--1.jpg"},
+    { "id": 5,"species":"Big Cat", "name": "Caracal", "location":"Africa", "size": 3, "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg/1200px-Caracal_on_the_road%2C_early_morning_in_Kgalagadi_%2836173878220%29_%28cropped%29.jpg"},
+    { "id": 6,"species":"Big Cat", "name": "Jaguar", "location":"Amazon", "size": 5, "image":"https://files.worldwildlife.org/wwfcmsprod/images/Jaguar_GPN7474/hero_small/63qidi36cn_Responsible_Forestry_8.10.2012_Biodiversiry_Loss_HI_7474.jpg"},
+    { "id": 7,"species":"Big Cat", "name": "Snow Leopard", "location":"Central Asia", "size": 5, "image":"https://images.saymedia-content.com/.image/t_share/MTc2NDYyMTcxMDg4Mjk5OTk0/the-endangered-snow-leopard.jpg"},
+    { "id": 8,"species":"Big Cat", "name": "Puma", "location":"North America", "size": 6, "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Mountain_Lion_in_Glacier_National_Park.jpg/800px-Mountain_Lion_in_Glacier_National_Park.jpg"},
+    { "id": 9,"species":"Big Cat", "name": "Panther", "location":"Africa & Asia", "size": 5, "image":"https://cdn.britannica.com/78/186778-050-73CF4F25/black-panther-leopards-Africa-Central-jaguars-South.jpg?w=400&h=300&c=crop"},
+    { "id": 10,"species":"Big Cat","name": "Eurasian Lynx", "location":"Europe & Russia",  "size": 5, "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp55IorYahz9Hr8sK__-fL0Stqb-mYMfE5NQ&s"}
+]

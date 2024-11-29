@@ -1,0 +1,12 @@
+[
+    { "id": 1,"species":"Big Fish", "name": "Great White Shark", "location": "Pacific Ocean",  "size": 16, "image": "https://i.guim.co.uk/img/media/396cba3d309222e39cda2c9c136db69c42af906a/0_320_6000_3600/master/6000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=e07ff283cf556106f8affd07f8467142" },
+    { "id": 2,"species":"Big Fish", "name": "Blue Whale", "location": "Atlantic Ocean",  "size": 98, "image": "https://www.americanoceans.org/wp-content/uploads/2023/09/whale-shark-vs-blue-whale-scaled.jpeg" },
+    { "id": 3,"species":"Big Fish", "name": "Manta Ray", "location": "Tropical Waters",  "size": 23, "image": "https://mantarayadvocates.com/wp-content/uploads/2024/03/spotted-eagle-ray-a-common-type-of-ray.jpeg" },
+    { "id": 4,"species":"Big Fish", "name": "Whale Shark", "location": "Indian Ocean",  "size": 40, "image": "https://i.natgeofe.com/n/a7928401-ba65-4d1a-a1fb-138621d18c13/3636516_4x3.jpg" },
+    { "id": 5,"species":"Big Fish", "name": "Swordfish", "location": "Atlantic Ocean",  "size": 15, "image": "https://ej9px6kfdm3.exactdn.com/wp-content/uploads/2021/11/Swordfish-jumping-out-of-water.jpeg?strip=all&lossy=1&quality=75&ssl=1" },
+    { "id": 6,"species":"Big Fish", "name": "Giant Oceanic Manta Ray", "location": "Tropical Oceans",  "size": 29, "image": "https://i0.wp.com/travelosio.com/wp-content/uploads/2016/06/giant-mantas.jpg?resize=1024%2C687&ssl=1" },
+    { "id": 7,"species":"Big Fish", "name": "Hammerhead Shark", "location": "Worldwide (Tropical & Warm Waters)",  "size": 20, "image": "https://cdn.britannica.com/62/62562-050-B5F4C54B/Hammerhead-shark.jpg" },
+    { "id": 8,"species":"Big Fish", "name": "Basking Shark", "location": "North Atlantic Ocean",  "size": 33, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDiLIdtRZWJjj1FDOVV2j9GhoSnHIGE-LZw&s" },
+    { "id": 9,"species":"Big Fish", "name": "Tiger Shark", "location": "Pacific Ocean",  "size": 14, "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Tiger_shark.jpg/800px-Tiger_shark.jpg" },
+    { "id": 10,"species":"Big Fish", "name": "Sunfish (Mola Mola)", "location": "Temperate Oceans",  "size": 11, "image": "https://i.natgeofe.com/n/1cf6e6c2-47e9-4a87-a7f8-f4537e8098c6/ocean-sunfish_thumb.jpg" }
+]

@@ -1,0 +1,12 @@
+[
+    { "id": 1,"species":"Dog", "name": "Wolf", "location": "North America", "size": 6, "image": "https://i.natgeofe.com/k/093c14b4-978e-41f7-b1aa-3aff5d1c608a/gray-wolf-closeup_square.jpg" },
+    { "id": 2,"species":"Dog", "name": "Dingo", "location": "Australia",  "size": 4, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIRDhDAbtHEmm8PwUtWc-idEot2N3605Cd5g&s" },
+    { "id": 3,"species":"Dog", "name": "African Wild Dog", "location": "Africa",  "size": 3, "image": "https://cdn.shortpixel.ai/spai2/q_glossy+w_1082+to_auto+ret_img/www.fauna-flora.org/wp-content/uploads/2023/05/Thomas-Retterath-iStock-1323457138-scaled-1.jpg" },
+    { "id": 4,"species":"Dog", "name": "Golden Retriever", "location": "Worldwide",  "size": 4.5, "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLFYQMyuFmoJTICcSp2M-RPFCxSC8oNYLsnw&s" },
+    { "id": 5,"species":"Dog", "name": "German Shepherd", "location": "Worldwide",  "size": 4.5, "image": "https://blog.gudog.co.uk/wp-content/uploads/2023/11/german-sherperd.jpeg" },
+    { "id": 6,"species":"Dog", "name": "Husky", "location": "Arctic Regions",  "size": 4.5, "image": "https://www.akc.org/wp-content/uploads/2017/11/Siberian-Husky-standing-outdoors-in-the-winter.jpg" },
+    { "id": 7,"species":"Dog", "name": "Chow Chow", "location": "China",  "size": 3, "image": "https://image.petmd.com/files/inline-images/chow-chow-3.jpg?VersionId=_anx7Dms_96ySQ0OhH07G6Gig1X_HzMK" },
+    { "id": 8,"species":"Dog", "name": "Akita", "location": "Japan",  "size": 4.5, "image": "https://www.vidavetcare.com/wp-content/uploads/sites/234/2022/04/akita-dog-breed-info.jpeg" },
+    { "id": 9,"species":"Dog", "name": "Border Collie", "location": "Worldwide",  "size": 4, "image": "https://i0.wp.com/www.livingwithgotlands.com/wp-content/uploads/2016/10/Kai.jpg?fit=696%2C818&ssl=1" },
+    { "id": 10,"species":"Dog", "name": "Dalmatian", "location": "Worldwide",  "size": 4.5, "image": "https://upload.wikimedia.org/wikipedia/commons/6/68/Sun_Dog_Dalmatian.jpg" }
+]
