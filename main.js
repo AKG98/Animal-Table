@@ -17,6 +17,11 @@ function getSpeciesForTable(tableId) {
     }
 }
 
+function isValidUrl(url) {
+    const urlRegex = /^(https?:\/\/)?(www\.)?[-a-zA-Z0-9@:%._\+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_\+.~#?&//=]*)$/;
+    return urlRegex.test(url);
+}
+
 function showAddModal(tableId) {
     const modal = new bootstrap.Modal(document.getElementById('animalModal'));
     const speciesSelect = document.getElementById('speciesInput');
@@ -55,7 +60,7 @@ function editAnimal(tableId, name) {
             location: document.getElementById('locationInput').value.trim(),
             size: parseInt(document.getElementById('sizeInput').value.trim()),
             species: document.getElementById('speciesInput').value,
-            image: document.getElementById('imageInput').value.trim() || 'https://via.placeholder.com/100'
+            image: document.getElementById('imageInput').value.trim()
         };
 
         const errors = [];
@@ -63,6 +68,7 @@ function editAnimal(tableId, name) {
         if (!updatedData.location) errors.push('Location is required');
         if (!updatedData.size) errors.push('Size is required');
         if (!updatedData.species) errors.push('Species is required');
+        if (updatedData.image && !isValidUrl(updatedData.image)) errors.push('Image URL is invalid');
 
         if (errors.length > 0) {
             alert(errors.join('\n'));
@@ -96,6 +102,7 @@ function saveAnimal(tableId) {
     if (!location) errors.push('Location is required');
     if (!size) errors.push('Size is required');
     if (!species) errors.push('Species is required');
+    if (image && !isValidUrl(image)) errors.push('Image URL is invalid');
 
     if (errors.length > 0) {
         alert(errors.join('\n'));
